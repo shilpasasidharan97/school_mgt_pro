@@ -1,0 +1,101 @@
+{% extends 'main.html' %}
+{% block content %}
+
+
+<!-- Addmission Top -->
+<div class="row">
+  <div  class="col-lg-12" style="height: 150px;background-color: rgb(51, 48, 48);">
+    <p style="color: white;margin-top: 100px;padding-left: 10px;font-size: large;" ><b>Admission</b></p>
+  </div>
+</div>
+
+<div class="row">
+  <!-- High School Enquiry -->
+  <div class="col-lg-5 pt-5 ms-5 me-5">
+    <p class="h5 fw-bold"><u>High school</u></p>
+    <p>Enquiry Form</p>
+    <!-- to do...enquiry form using bootstarp -->
+        <table class="table table-hover table-warning" style="text-align: center;">
+          <h5 class="text-center">Classes</h5>
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">division</th>
+                <th scope="col">strength</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" rowspan="3" class="pt-5">8th</th>
+                <td>A</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>B</td>
+                <td>30</td>
+                </tr>
+              <tr>
+                <td>C</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="3" class="pt-5">9th</th>
+                <td >A</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>B</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>C</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="3" class="pt-5">10th</th>
+                <td >A</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>B</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>C</td>
+                <td>30</td>
+              </tr>
+            </tbody>
+            <tfoot>
+             <th scope="row" colspan="2">Toatal strength</th>
+             <td>270</td>
+            </tfoot>
+        </table>
+  </div>
+  <!-- Higher Secondary School -->
+  <div class="col-lg-5 pt-5 ms-5">
+    <p class="h5 fw-bold"><u>Higher Secondary</u></p>
+    <p>Enquiry Form</p>
+    <!-- enquiry form using bootstrap(modal) -->
+            <p class="h4">Program offered</p><hr>
+            <p class="fw-bolder">Biology Science</p><hr>
+            <p class="fst-italic">Course code:</p>
+            <p class="fst-italic">Duration</p>
+            <p class="fst-italic">Total Seats</p><hr>
+            <p class="fw-bolder">Commerce</p><hr>
+            <p class="fst-italic">Course code:</p>
+            <p class="fst-italic">Duration</p>
+            <p class="fst-italic">Total Seats</p><hr>
+            <p class="fw-bolder">Computer Science</p><hr>
+            <p class="fst-italic">Course code:</p>
+            <p class="fst-italic">Duration</p>
+            <p class="fst-italic">Total Seats</p><hr>
+            <p class="fw-bolder">Humanities</p><hr>
+            <p class="fst-italic">Course code:</p>
+            <p class="fst-italic">Duration</p>
+            <p class="fst-italic">Total Seats</p>
+  </div>
+</div>
+            
+
+
+{% endblock %}
